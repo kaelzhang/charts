@@ -58,6 +58,7 @@ spec:
       {{- else }}
       serviceAccountName: default
       {{- end }}
+      hostNetwork: {{ default false .Values.hostNetwork }}
       terminationGracePeriodSeconds: 60
       {{- if .Values.nodeSelector }}
       nodeSelector:

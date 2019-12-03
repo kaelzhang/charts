@@ -1,3 +1,9 @@
+The altered fork of the official stable/traefik
+
+- support `hostNetwork:true` for `Deployment`
+
+****
+
 # Traefik
 
 [Traefik](https://traefik.io/) is a modern HTTP reverse proxy and load balancer made to deploy
